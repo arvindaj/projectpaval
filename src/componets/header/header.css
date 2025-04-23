@@ -1,0 +1,323 @@
+.offcanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 950px !important;
+  background-color: #4e5358 !important ;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%) ;
+  visibility: hidden;
+  z-index: 1045;
+}
+
+.nav-link.active {
+  color: #8EC440 !important; /* Active link color */
+  font-weight: bold; /* Optional: make it stand out */
+}
+.nav-link {
+  color: #e9e6e6 !important;
+}
+.nav-link:hover{
+  color: #5e9f03 ;
+}
+
+
+/* Web Development Active */
+.web-active {
+  color: #8B0000 !important; /* Example dark orange */
+  font-weight: bold;
+}
+/* .NET Development Active */
+.dotnet-active {
+  color: #8B0000 !important; /* Dark red */
+  font-weight: bold;
+}
+.dotnet-active {
+  color: #8B0000 !important; /* Dark red */
+  font-weight: bold;
+}
+/* PHP Development Active */
+.php-active {
+  color: #8B0000 !important; /* Dodger blue */
+  font-weight: bold;
+}
+/* IOS Development Active */
+.ios-active {
+  color: #8B0000 !important; /* Indigo */
+  font-weight: bold;
+}
+/* Mobile Application Active */
+.mobile-active {
+  color: #8B0000 !important; /* Dark orange */
+  font-weight: bold;
+}
+
+/* E-Commerce Active */
+.ecommerce-active {
+  color: #8B0000 !important; /* Slate blue */
+  font-weight: bold;
+}
+
+/* AWS Cloud Active */
+.aws-active {
+  color: #8B0000 !important; /* Gold */
+  font-weight: bold;
+}
+
+/* Wordpress Active */
+.wordpress-active {
+  color: #8B0000 !important; /* Medium purple */
+  font-weight: bold;
+}
+
+/* Android Active */
+.android-active {
+  color: #8B0000 !important; /* Medium sea green */
+  font-weight: bold;
+}
+/* Internet of Things Active */
+.iot-active {
+  color: #8B0000 !important; /* Dark turquoise */
+  font-weight: bold;
+}
+
+/* Artificial Intelligence Active */
+.ai-active {
+  color: #8B0000 !important; /* Dark orchid */
+  font-weight: bold;
+}
+
+/* Machine Learning Active */
+.ml-active {
+  color: #8B0000 !important; /* Steel blue */
+  font-weight: bold;
+}
+
+/* Generative AI Active */
+.genai-active {
+  color: #8B0000 !important; /* Goldenrod */
+  font-weight: bold;
+}
+
+/* Blockchain Active */
+.blockchain-active {
+  color: #8B0000 !important; /* Sea green */
+  font-weight: bold;
+}
+
+/* CRM Technologies Active */
+.crm-active {
+  color: #8B0000 !important; /* Blue violet */
+  font-weight: bold;
+}
+
+/* Digital Marketing Active */
+.digitalmarketing-active {
+  color: #8B0000 !important; /* Orange red */
+  font-weight: bold;
+}
+
+/* Content Writing Active */
+.contentwriting-active {
+  color: #8B0000 !important; /* Dark olive green */
+  font-weight: bold;
+}
+
+/* UI & UX Active */
+.uiux-active {
+  color: #8B0000 !important; /* Dark slate blue */
+  font-weight: bold;
+}
+
+/* SEO Active */
+.seo-active {
+  color: #8B0000 !important; /* Steel blue */
+  font-weight: bold;
+}
+
+/* Devops Active */
+.devops-active {
+  color: #8B0000 !important; /* Forest green */
+  font-weight: bold;
+}
+
+/* Hire Full Stack Developers Active */
+.hirefullstack-active {
+  color: #8B0000 !important; /* Light sea green */
+  font-weight: bold;
+}
+
+/* Hire Mobile Developers Active */
+.hiremobile-active {
+  color: #8B0000 !important; /* Tomato */
+  font-weight: bold;
+}
+
+/* Hire UI/UX Developers Active */
+.hireuiux-active {
+  color: #8B0000 !important; /* Blue violet */
+  font-weight: bold;
+}
+
+/* Hire Digital Marketing Active */
+.hiredigitalmarketing-active {
+  color: #8B0000 !important; /* Dark orange */
+  font-weight: bold;
+}
+
+/* Hire Quality Analyst Active */
+.hirequality-active {
+  color: #8B0000 !important; /* Steel blue */
+  font-weight: bold;
+}
+
+
+
+/* Button outline color when linked */
+.btn-outline-success {
+  border-color: #8EC440 !important; /* Set button border color */
+  color: #396003 !important; /* Set button text color */
+}
+
+.btn-outline-success:hover {
+  background-color: #8EC440 !important; /* Set hover background color */
+  color: white !important; /* Set hover text color */
+}
+
+.offcanvas.show {
+  transform: translateX(0) !important;
+  visibility: visible;
+}
+
+
+
+.dropdown-item{
+  color: #000000;
+  font-weight: 10px;
+  font-size: 16px !important;
+  
+}
+.dropdown-item:hover{
+  color: #880000 !important;
+}
+
+.offcanvas .nav-link {
+  font-size: 16px !important;
+}
+
+.header {
+  position: relative;
+}
+
+.btn-outline-success {
+  margin-left: 10px;
+}
+
+
+/* Dropdown Menu on Hover for Large Screens */ 
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Show dropdown on hover */
+  
+}
+
+/* Optional: Add a transition effect */
+.nav-item.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  z-index: 1000;
+  color: #000 !important;
+  
+}
+.custom-link {
+  text-decoration: none; 
+  border-radius: 0.25rem;
+}
+.custom-link:hover {
+  color: #304f04; /* Optional: Change text color on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+.dropdown-menu {
+  margin: 0px;
+}
+
+.custom-linkbutton:hover{
+  color: #8EC440;
+}
+
+/* Custom Dropdown Menu Styles */
+.customs-dropdown-menu {
+  background-color:var(--bs-secondary-color, #6c757d) !important; /* Custom background color */
+  color: #ffffff !important; /* Text color */
+  border: 1px solid var(--bs-secondary-color, #6c757d) !important; /* Border styling */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 10px; /* Optional padding */
+}
+
+/* Custom Links */
+.customs-dropdown-menu a {
+  color: #f1eeee !important; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover Effect for Links */
+.customs-dropdown-menu a:hover {
+  color: #8EC440 !important; /* Hover text color */
+}
+
+.contactus {
+  font-size: 16px !important;
+  padding: 10px 20px !;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.icon-size {
+  font-size: 18px;
+}
+/* Responsive styles for small screens (320px or less) */
+@media (max-width: 520px) {
+  .contactus {
+    font-size: 12px !important;        /* Smaller font size */
+    padding: 10px 18px;     /* Reduced padding */
+    width: 80px;            /* Full width for mobile */
+    text-align: center;     /* Center-align content */
+  }
+
+  .icon-size {
+    font-size: 14px;        /* Smaller icon size */
+  }
+.contactus i{
+  padding-left: 0px !important;
+  width: 80px !important;
+}
+}
+
+
+/* Anchor Tag Styling */
+.contact-us-button {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-us-button:hover {
+  background-color: #76a837; /* Darker green on hover */
+}
+
+/* Icon Styling Inside Button */
+.contact-us-button i {
+  font-size: 20px;
+  margin-right: 10px; /* Space between icon and text */
+}

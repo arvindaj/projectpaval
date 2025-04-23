@@ -1,0 +1,485 @@
+  /* Add responsiveness */
+
+
+/*content-layout */
+@media (max-width: 768px) {
+
+
+    .home-container {
+      padding: 20px;
+      height: auto;
+      /* Allow height to adjust based on content */
+    }
+  
+    .home-content-explore-button {
+      font-size: 14px;
+      padding: 8px 16px;
+      border-radius: 4px;
+    }
+  
+    .home-container {
+      padding: 20px;
+      height: auto;
+    }
+  
+  }
+/* Responsive Styling for Smaller Screens (320px) */
+@media screen and (max-width: 320px) {
+  .home-container {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home-content-container {
+    max-width: 280px;
+  }
+
+  .home-content-container h1 {
+    font-size: 24px;
+  }
+
+  .home-content-container p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .home-content-explore-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
+
+
+
+
+/* Responsive Design for 320px */
+@media screen and (max-width: 320px) {
+  .content-layout {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px !important;
+  }
+
+  .content-left-side,
+  .content-right-side {
+    max-width: 90%;
+    min-width: 90%;
+    max-height: 80% !important;
+    min-height: 40% !important;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .content-left-side h1,
+  .content-right-side h1 {
+    font-size: 20px;
+    text-align: left !important;
+  }
+
+  .content-left-side p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .form-group-content input,
+  .form-group-content textarea {
+    font-size: 12px;
+  }
+
+  .form-group-content textarea {
+    min-height: 80px;
+  }
+
+  .content-right-side-submit-button {
+    font-size: 14px;
+    padding: 8px;
+    height: 40px;
+    width: 120px !important;
+    background-color: #2B2B2B;
+  }
+}
+
+/* Responsive Design with Auto Size for 375px */
+@media screen and (max-width: 375px) {
+  .content-layout {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center align all sections */
+    gap: 20px; /* Space between sections */
+    padding: 15px; /* Adjust outer padding */
+    width: auto;
+  }
+
+  .content-left-side,
+  .content-right-side {
+    width: 90%; /* Use full width */
+    padding: 15px; /* Inner padding for readability */
+    box-sizing: border-box; /* Include padding in width calculation */
+    box-shadow: none; /* Simplify design for small screens */
+  }
+
+  /* Left Side Content Styling */
+  .content-left-side h1 {
+    font-size: calc(1.5rem + 0.5vw); /* Dynamically adjust font size */
+    text-align: center; /* Center text */
+    margin-bottom: 10px;
+  }
+
+  .content-left-side p {
+    font-size: calc(0.9rem + 0.2vw); /* Dynamic font size for paragraphs */
+    margin-bottom: 12px;
+    line-height: 1.5; /* Maintain line spacing */
+    text-align: justify; /* Better alignment for mobile screens */
+  }
+
+  /* Right Side (Form) Styling */
+  .content-right-side h1 {
+    font-size: calc(1.3rem + 0.4vw); /* Responsive font size */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* Form Group Styling */
+  .form-group-content input,
+  .form-group-content textarea {
+    font-size: calc(0.8rem + 0.3vw); /* Adjust input size */
+    padding: 10px; /* Comfortable touch padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Ensure full width */
+  }
+
+  .form-group-content textarea {
+    min-height: 90px; /* Adequate space for input */
+  }
+
+  /* Submit Button Styling */
+  .content-right-side-submit-button {
+    font-size: calc(0.9rem + 0.3vw); /* Dynamic button size */
+    padding: 12px; /* Larger touch area */
+    width: 100%; /* Full width for buttons */
+    background-color: #8EC440;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .content-right-side-submit-button:hover {
+    background-color: #76a837;
+  }
+}
+
+
+
+  
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .read-more-button {
+    font-size: 12px; /* Smaller font size */
+    padding: 10px;
+    width: 30% ; /* Reduced width for better fit */
+    margin: 10px auto; /* Center align the button */
+    display: block; /* Ensure block-level display */
+
+  }
+}
+
+  /* Responsive Styling for 320px */
+  @media (max-width: 320px) {
+    .scroll-container {
+      padding: 10px;
+      height: 100%;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .wrapper {
+      display: inline-flex;
+      gap: 10px;
+      transform: translateX(0px);
+      height: 100%;
+    }
+  
+    .service-card {
+      display: flex;
+      flex-direction: row;
+      width: 280px;
+      height: 160px;
+      min-width: 240px;
+      border-radius: 6px;
+      background-color: #000;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+  
+    .service-left {
+      flex: 0 0 80px;
+      /* Fix width for the left section */
+      height: 100%;
+      /* Match the height of the card */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffff;
+    }
+  
+    .service-img {
+      width: 80px;
+      height: 120px;
+      object-fit: contain;
+  
+    }
+  
+    .service-right {
+      flex: 1;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #000;
+    }
+    .service-title {
+      font-size: 10px;
+      padding-top: 10px !important;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #ffffff;
+    }
+  
+    .service-description {
+      font-size: 7px;
+      color: #ffffff;
+    }
+
+    .read-more-button {
+      font-size: 8px; /* Smaller font size */
+      padding: 10px;
+      height: 30px;
+      width: 60px; /* Reduced width for better fit */
+  
+    }
+
+  }
+  
+  
+/* For 425px */
+@media (max-width: 425px) {
+  .bar-layout {
+    padding: 15px;
+  }
+
+  .bar-tab {
+    max-width: 250px; /* Ensure proper alignment */
+  }
+
+  .bar-tab img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .bar-tab h1 {
+    font-size: 13px;
+  }
+}
+
+/* For 375px */
+@media (max-width: 375px) {
+  .bar-layout {
+    padding: 10px;
+  }
+
+  .bar-tab {
+    max-width: 200px; /* Adjust for narrower screens */
+    padding: 10px;
+  }
+
+  .bar-tab img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bar-tab h1 {
+    font-size: 12px;
+  }
+}
+
+/* For 320px */
+@media (max-width: 320px) {
+  .bar-layout {
+    padding: 10px;
+  }
+
+  .bar-tab {
+    max-width: 180px; /* Compact for very small screens */
+    padding: 8px;
+  }
+
+  .bar-tab img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .bar-tab h1 {
+    font-size: 11px;
+  }
+}
+
+.product-service-bottom-left {
+  text-align:justify;
+}
+
+
+/* Responsive Styling for Small Screens */
+@media (max-width: 480px) {
+  .bar-layout {
+    padding: 10px;
+  }
+
+  .bar-tab {
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .bar-tab img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bar-tab h1 {
+    font-size: 12px;
+  }
+}
+
+.product-service-bottom-left {
+  text-align:justify;
+}
+
+/* Responsive Styling for Larger Screens */
+@media (min-width: 430px) and (max-width: 768px) {
+  .bar-tab {
+    max-width: 250px;
+    max-height: 60px;
+  }
+
+  .bar-tab h1 {
+    font-size: 15px;
+  }
+
+  .bar-tab img {
+    width: 55px;
+    height: 55px;
+  }
+}
+  
+
+.product-service-bottom-left {
+  text-align:justify;
+}
+
+
+
+
+@media (max-width: 768px) {
+ 
+
+  .product-service-bottom {
+    flex-direction: column; /* Stack bottom items vertically */
+    gap: 20px; /* Provide spacing between bottom sections */
+  }
+
+  .product-service-bottom-left, .product-service-bottom-right {
+    flex: none;
+    width: 100%; /* Ensure the bottom sections take full width */
+  }
+
+  .product-service-bottom-right img {
+    width: 100%; /* Ensure image scales well on small screens */
+    height: auto;
+  }
+}
+
+.product-service-bottom-left {
+  text-align:justify;
+}
+
+
+/* Responsive Design for 320px — 480px */
+@media screen and (max-width: 480px) {
+  .product-service-wrapper {
+    padding: 15px;
+  }
+
+  .product-service {
+    max-width: 100%; /* Adjust card width to fit smaller screens */
+    margin: 0;
+    border-radius: 6px;
+  }
+
+  .product-service-bottom {
+    flex-direction: column; /* Stack left and right sections */
+    align-items: center; /* Center-align content */
+    gap: 15px; /* Add space between stacked items */
+    padding: 15px;
+  }
+
+  .product-service-bottom-left,
+  .product-service-bottom-right {
+    text-align: center; /* Center text for smaller screens */
+  }
+
+  .product-service-bottom-right img {
+    max-width: 90%; /* Reduce image size to fit smaller screens */
+  }
+}
+
+.product-service-bottom-left {
+  text-align:justify;
+}
+
+
+
+
+/* Media Query for Mobile Screens (Max Width: 480px) */
+@media (max-width: 480px) {
+  .search-engine-optimization {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .search-engine-optimization-left h1 {
+    font-size: 1.2rem; /* Smaller font size for very narrow screens */
+  }
+
+  .search-engine-optimization-right img {
+    max-width: 250px; /* Further restrict image size */
+  }
+}
+
+/* Media Query for Extra Small Screens (Max Width: 320px) */
+@media (max-width: 320px) {
+  .search-engine-optimization {
+    padding: 10px; /* Minimize padding */
+  }
+
+  .search-engine-optimization-left h1 {
+    font-size: 1rem; /* Smaller font size */
+  }
+
+  .search-engine-optimization-right img {
+    max-width: 200px; /* Adjust max width for very narrow screens */
+  }
+}
+
+
+.product-service-bottom-left {
+  text-align:justify;
+}
+
+
+

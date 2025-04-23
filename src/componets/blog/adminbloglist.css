@@ -1,0 +1,46 @@
+.btn-custom {
+  font-size: 14px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+/* blog.css */
+
+/* Apply black background to the entire page */
+body {
+  /*background-color: black;*/
+  color: white; /* Ensure text is readable */
+  margin: 0; /* Remove default browser margins */
+  padding: 0;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.blog-page {
+  min-height: 100vh; /* Ensures container fills the viewport */
+}
+
+.blog-page h1 {
+  color: #8EC440;
+}
+
+/* Card styling */
+.card {
+  background-color: #333; /* Dark card background */
+  color: white;
+}
+
+
+.card-title {
+  color: #8EC440;
+}
+
+/* Button styling */
+.card .btn {
+  background-color: #8EC440;
+  color: white;
+  border: #8EC440;
+}
+
+.card .btn:hover {
+  background-color: #8EC440;
+}

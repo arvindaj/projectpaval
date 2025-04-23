@@ -1,0 +1,56 @@
+.devops-front-page {
+  background-image: url('../Asset/Devops.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.devops-front-page-center {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.devops-front-page {
+  padding: 40px 0px; /* Adjust padding for smaller screens */
+}
+
+.devops-front-heading h1 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #8EC440;
+  text-align: left;
+}
+
+.devops-front-heading p {
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* ✅ Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .devops-front-heading h1 {
+    font-size: 24px; /* Smaller heading */
+    text-align: left;
+  }
+
+  .devops-front-heading p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .devops-front-page {
+    padding: 40px 0px; /* Adjust padding for smaller screens */
+  }
+}

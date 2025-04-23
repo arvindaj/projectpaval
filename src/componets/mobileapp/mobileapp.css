@@ -1,0 +1,151 @@
+
+
+.mobileapp-front-page {
+  background-image: url('../Asset/Mobile\ Application\ Development\ banner.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white; /* Text color */
+}
+
+.mobileapp-front-page-center{
+  width: 100%;
+  max-width: 1200px; /* Control width for large screens */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.mobileapp-front-heading h1 {
+  font-size: 34px !important;
+  font-weight: bold !important;
+  color: #8EC440 !important;
+  text-align: left !important ;
+}
+
+.mobileapp-front-heading p {
+  font-size: 1.1rem !important ;
+  color: #ddd !important;
+  text-align: left !important ;
+  line-height: 1.6 !important;
+  margin-bottom: 16px !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .mobileapp-front-page {
+    height: 400px; /* Smaller height on mobile */
+  }
+
+  .mobileapp-front-heading h1 {
+    font-size: 2rem;
+  }
+
+  .mobileapp-front-heading p {
+    font-size: 1rem;
+    width: 90%; /* Adjust text width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .mobileapp-front-page {
+    height: 350px; /* Even smaller height for small screens */
+  }
+
+  .mobileapp-front-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .mobileapp-front-heading p {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+}
+
+
+.mobileapp-about{
+  padding: 20px !important;
+  padding-left: 0px;
+  line-height: 1.6;
+  background-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.mobileapp-about  h1{
+  color: #8EC440;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.w-p-a{
+  background-color: #000;
+  margin: 0%;
+}
+
+
+/* Main container */
+.web-php-aspnet {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 30px; /* Add space between columns */
+  padding: 20px;
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  max-width: 1200px;
+  margin: 0 auto; /* Center the grid on the page */
+  background-color: #000;
+}
+
+/* Individual items */
+.web-php-aspnet-item {
+  background-color: #000; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center text */
+  max-width: 100%; /* Make sure items are responsive */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.web-php-aspnet-item:hover {
+  transform: translateY(-10px); /* Hover effect - slight lift */
+}
+
+.web-php-aspnet-item h1 {
+  font-size: 1.4rem; /* Increase font size for headings */
+  margin-bottom: 15px; /* Space between heading and paragraph */
+  color: #8EC440; /* Dark color for headings */
+  font-weight: bold;
+}
+
+.web-php-aspnet-item p {
+  font-size: 1.1rem;
+  color: #ddd;
+  text-align: left !important ;
+  line-height: 1.6;
+  margin-bottom: 16px;/* Improve readability */
+}
+
+.content-left-side {
+  text-align: justify;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .web-php-aspnet {
+    grid-template-columns: 1fr; /* Stack columns in a single row on smaller screens */
+  }
+}
+
+
+
+

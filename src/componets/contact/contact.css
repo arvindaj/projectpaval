@@ -1,0 +1,109 @@
+/* Main Section Styling */
+.contact-front-page {
+  background-image: url('../Asset/Contact\ us\ banner.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.contact-front-page-center {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.contact-front-heading h1 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #8EC440;
+  text-align: left !important ;
+}
+
+.contact-front-heading p {
+  font-size: 1.1rem;
+  color: #ddd;
+  text-align: left !important ;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .contact-front-page {
+    height: 400px;
+    /* Smaller height on mobile */
+  }
+
+  .contact-front-heading h1 {
+    font-size: 2rem;
+  }
+
+  .contact-front-heading p {
+    font-size: 1rem;
+    width: 90%;
+    /* Adjust text width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-front-page {
+    height: 350px;
+    /* Even smaller height for small screens */
+  }
+
+  .contact-front-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-front-heading p {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+}
+
+/* {2   Content} */
+.contact-pavalsoft {
+  padding: 20px;
+  margin-bottom: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-pavalsoft .content {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-pavalsoft .content h1 {
+  color: #8EC440;
+}
+
+
+.center-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.center-button:hover {
+  background-color: #2f322c;
+}

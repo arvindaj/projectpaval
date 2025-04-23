@@ -1,0 +1,108 @@
+
+
+.iot-front-page {
+  background-image: url('../Asset/IOS\ Development.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white; /* Text color */
+}
+
+.iot-front-page-center{
+  width: 100%;
+  max-width: 1200px; /* Control width for large screens */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  
+}
+
+.iot-front-heading h1 {
+  font-size: 34px !important;
+  font-weight: bold !important;
+  color: #8EC440 !important;
+  text-align: left !important ;
+}
+
+.iot-front-heading p {
+  font-size: 1.1rem !important ;
+  color: #ddd !important;
+  text-align: left !important ;
+  line-height: 1.6 !important;
+  margin-bottom: 16px !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .iot-front-page {
+    height: 400px; /* Smaller height on mobile */
+  }
+
+  .iot-front-heading h1 {
+    font-size: 2rem;
+  }
+
+  .iot-front-heading p {
+    font-size: 1rem;
+    width: 90%; /* Adjust text width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .iot-front-page {
+    height: 350px; /* Even smaller height for small screens */
+  }
+
+  .iot-front-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .iot-front-heading p {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+}
+
+
+.iot-development-content{
+  margin: 0%;
+}
+
+.iot-development-about {
+  padding: 30px;
+  padding-left: 34px;
+  margin-bottom: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.iot-development-about .content {
+  margin-bottom: 20px;
+  color: white;
+  text-align: left;
+}
+.iot-development-about h1 {
+  color: #8EC440;
+  padding-bottom: 10px;
+  font-weight: bold;
+
+}
+.iot-development-about .content p{
+  font-size: 1.1rem;
+  color: #ddd;
+  text-align: left !important ;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.content-left-side {
+  text-align: left;
+}

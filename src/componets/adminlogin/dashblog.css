@@ -1,0 +1,90 @@
+.blog-container {
+  padding: 20px;
+}
+
+.table-container {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  color: white;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #BBFF59 !important;
+}
+
+
+.table.table-dark.table-hover thead {
+  background-color: #BBFF59 !important;
+}
+
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #333;
+}
+
+.table .btn {
+  font-size: 0.9rem;
+}
+
+
+.text-whites{
+  color: black;
+    background-color: #BBFF59;
+}
+
+.text-whitee{
+  color:#BBFF59 ;
+    
+}
+
+.custom-add-blog-btn {
+  background-color: #BBFF59; /* Adjust the color as needed */
+  color: black; /* Text color */
+  border: none;
+}
+
+.custom-add-blog-btn:hover {
+  background-color: #BBFF59; /* Color when hovered */
+  color:#1a1a1a
+}
+
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  
+}
+
+.action-buttons .btn {
+  margin-right: 5px; /* Adjust spacing between buttons */
+}
+
+.action-buttons .btn:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+
+.table-container {
+  overflow-x: auto; /* Add horizontal scroll for large tables */
+}
+
+table td {
+  white-space: nowrap; /* Prevent text wrapping */
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+table th,
+table td {
+  vertical-align: middle; /* Align content to the middle of the row */
+}
