@@ -1,0 +1,137 @@
+/* Fullscreen background */
+.admin-login-container {
+  background-image: url("../Asset/backgroundlogin.png"); /* Update path if needed */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The container for the logo placed outside the card */
+.new-logo-container {
+  position: absolute;
+  top: -30px; /* Position the logo above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  
+  padding: 10px;
+  border-radius: 50%; /* Circle around the logo */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for pop effect */
+}
+
+/* Logo inside the container */
+.logo new-logo{
+  width: 140px; /* Adjust logo size */
+  height: auto;
+  
+}
+
+
+/* Login card (right side) */
+.login-card {
+  background: #2B2B2B;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 20px; /* Reduced padding */
+  width: 90%; /* Shrink container width */
+  max-width: 350px; /* Restrict maximum width */
+  margin: 0 auto;
+  position: relative; /* To contain the absolute positioning of the logo */
+  z-index: 1; /* Ensure card is beneath the logo */
+}
+
+/* Adjust the right container to give space for the logo */
+.col-lg-6.position-relative {
+  padding-top: 60px; /* Space for the logo on top */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+/* Image on the left */
+.login-image {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Password toggle icon */
+.toggle-password {
+  position: absolute;
+  top: 60%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .login-card {
+    padding: 30px; /* Slightly larger padding for larger screens */
+    max-width: 400px;
+  }
+
+  /* Center align the logo and content for smaller screens */
+  .new-logo-container {
+    top: -40px; /* Adjust positioning for smaller screens */
+  }
+
+  .login-image {
+    display: none; /* Hide the left-side image on smaller screens */
+  }
+}
+
+/* Label text color */
+.form-group label {
+  color: #fff; /* Set label text to white */
+  font-weight: 200;
+}
+
+/* Placeholder text color */
+.form-control::placeholder {
+  color: #fff; /* Set placeholder text to white */
+  opacity: 1;  /* Ensure full opacity for the color */
+  font-weight: 200;
+}
+
+/* Input text color */
+.form-control {
+  color: #fff; /* Ensure typed text inside input is also white */
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #BBFF59;
+  border-radius: 10px;
+  background: #2B2B2B;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+
+
+
+
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

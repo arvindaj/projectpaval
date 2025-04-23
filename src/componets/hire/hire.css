@@ -1,0 +1,77 @@
+.h-w-b {
+  background-color: #000;
+  color: #fff;
+  padding: 0px !important;
+  display: flex;
+}
+
+.container {
+  margin-bottom: 0px !important;
+  margin-left: 30px !important;
+  padding-bottom: 0px !important;
+}
+
+.section-title {
+  color: #8EC440 !important;
+  font-size: 1.85rem !important;
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+}
+
+.logo-hire {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+}
+
+.logo-hire img {
+  width: 24px !important;
+  height: 25px !important;
+  padding-top: 3px !important;
+
+}
+
+.logo-hire p {
+  font-size: 1.1rem !important;
+  color: #ddd !important;
+  text-align: left !important;
+  line-height: 1.6 !important;
+  margin-bottom: 16px !important;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .logo-hire img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logo-hire p {
+    font-size: 13px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .logo-hire {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .logo-hire img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .logo-hire p {
+    font-size: 16px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}

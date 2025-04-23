@@ -1,0 +1,119 @@
+.blog-front-page {
+  background-image: url('../Asset/Blog\ banner.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white; /* Text color */
+}
+
+.blog-front-page-center {
+  width: 100%;
+  max-width: 1200px; /* Control width for large screens */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.blog-front-heading h1 {
+  font-size: 34px !important;
+  font-weight: bold !important;
+  color: #8EC440 !important;
+  text-align: left !important ;
+}
+
+.blog-front-heading p {
+  font-size: 1.1rem !important ;
+  color: #ddd !important;
+  text-align: left !important ;
+  line-height: 1.6 !important;
+  margin-bottom: 16px !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .blog-front-page {
+    height: 400px; /* Smaller height on mobile */
+  }
+
+  .blog-front-heading h1 {
+    font-size: 2rem;
+  }
+
+  .blog-front-heading p {
+    font-size: 1rem;
+    width: 90%; /* Adjust text width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .blog-front-page {
+    height: 350px; /* Even smaller height for small screens */
+  }
+
+  .blog-front-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .blog-front-heading p {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+}
+
+
+
+.btn-custom {
+  font-size: 14px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+/* blog.css */
+
+/* Apply black background to the entire page */
+.blog-page {
+  background-color: black;
+  color: white; /* Ensure text is readable */
+  margin: 0; /* Remove default browser margins */
+  padding: 0;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.blog-page {
+  min-height: 100vh; /* Ensures container fills the viewport */
+}
+
+.blog-page h1 {
+  color: #8EC440;
+}
+
+/* Card styling */
+.card {
+  background-color: #333; /* Dark card background */
+  color: white;
+}
+
+
+.card-title {
+  color: #8EC440;
+}
+
+/* Button styling */
+.card .btn {
+  background-color: #8EC440;
+  color: white;
+  border: #8EC440;
+}
+
+.card .btn:hover {
+  background-color: #8EC440;
+}
+
+

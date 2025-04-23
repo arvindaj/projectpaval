@@ -1,0 +1,132 @@
+.web-front-page {
+  background-image: url('../Asset/Web\ banner.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white; /* Text color */
+}
+
+.web-front-page-center{
+  width: 100%;
+  max-width: 1200px; /* Control width for large screens */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.web-front-heading h1 {
+  font-size: 34px !important;
+  font-weight: bold !important;
+  color: #8EC440 !important;
+  text-align: left !important ;
+}
+
+.web-front-heading p {
+  font-size: 1.1rem !important ;
+  color: #ddd !important;
+  text-align: left !important ;
+  line-height: 1.6 !important;
+  margin-bottom: 16px !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .web-front-page {
+    height: 400px !important; /* Smaller height on mobile */
+  }
+
+  .web-front-heading h1 {
+    font-size: 2rem !important;
+  }
+
+  .web-front-heading p {
+    font-size: 1rem !important;
+    width: 90% !important; /* Adjust text width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .web-front-page {
+    height: 350px !important; /* Even smaller height for small screens */
+  }
+
+  .web-front-heading h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .web-front-heading p {
+    font-size: 0.9rem !important;
+    width: 90% !important;
+  }
+}
+
+
+
+.w-p-a {
+  background-color: #000;
+  margin: 0%;
+}
+
+
+/* Main container */
+.web-php-aspnet {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+
+.web-php-aspnet-item {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: justify !important;
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.web-php-aspnet-item:hover {
+  transform: translateY(-10px);
+}
+
+.web-php-aspnet-item h1 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #8EC440;
+}
+
+.web-php-aspnet-item p {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.content-left-side {
+  text-align: justify;
+}
+
+.web-php-aspnet {
+  text-align: justify;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .web-php-aspnet {
+    grid-template-columns: 1fr;
+    /* Stack columns in a single row on smaller screens */
+  }
+}

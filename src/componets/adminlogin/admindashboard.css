@@ -1,0 +1,77 @@
+
+/* Sidebar */
+.sidebar {
+  width: 250px !important; 
+}
+
+/* Sidebar logo */
+.logo-container .logo {
+  width: 150px;
+  height: auto;
+}
+
+.logo-container {
+  left: 10%;
+  top: -10px;
+}
+
+/* Navigation links */
+.nav-link {
+  padding: 10px 20px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.flex-column {
+  padding-top: 120px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  /* background-color: #BBFF59; */
+  color: #000;
+}
+
+
+
+
+
+
+/* Profile Image */
+.profile-image {
+  object-fit: cover;
+  border: 2px solid #8EC440;
+}
+
+/* Active menu styling */
+.active-menu {
+  background-color: #8EC440;
+  color: black !important;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+/* .custom-logout-button {
+  color: white;
+  background-color: darkslategray;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  width: 160px;
+}
+
+.custom-logout-button:hover {
+  background-color: #BBFF59;
+  color: #ffff;
+} */
+
+
+

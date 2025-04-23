@@ -1,0 +1,56 @@
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px !important;
+}
+
+.footer h6 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #8ec440;
+}
+
+.footer p {
+  font-size: 1.1rem;
+  color: #ddd;
+  text-align: left !important ;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.custom-button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0px;
+  width: 100%; /* Full width for mobile screens */
+  text-align: left;
+  font-size:  14px;
+}
+
+.custom-button:hover {
+  color: #8ec440;
+}
+
+.custom-button:focus {
+  outline: none;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;  /* Space between the grid items */
+  padding: 20px;
+  padding-left: 0px;
+  margin-left: 20px;
+  padding-right: 0px !important;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

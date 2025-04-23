@@ -1,0 +1,110 @@
+.php-front-page {
+  background-image: url('../Asset/php\ Development.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.php-front-page-center {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.php-front-page {
+  padding: 40px 0px; /* Adjust padding for smaller screens */
+}
+.php-front-heading h1 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #8EC440;
+  text-align: left;
+}
+
+.php-front-heading p {
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* ✅ Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .php-front-heading h1 {
+    font-size: 24px; /* Smaller heading */
+    text-align: left;
+  }
+
+  .php-front-heading p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .php-front-page {
+    padding: 40px 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+
+
+
+
+
+.php-development-content {
+  margin: 0%;
+}
+
+.php-development-about {
+  padding: 20px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  color: #ddd;
+  line-height: 1.6;
+  background-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.php-development-about .content {
+  margin-bottom: 10px;
+  color: white;
+  text-align: left;
+}
+
+.php-development-about h1 {
+  color: #8EC440;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.content-left-side {
+  text-align: left;
+}
+
+.php-development-about .content p {
+  font-size: 1.1rem;
+  color: #ddd;
+  text-align: left !important;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+
+
+.custom-border {
+  border: 1px solid rgba(141, 196, 64, 0.47);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-border:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(125, 219, 31, 0.67);
+}
